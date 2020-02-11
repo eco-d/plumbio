@@ -2,6 +2,7 @@
 
 body {
   background-color: #cfd8dc;
+  background-image: radial-gradient(#cfd8dc, #cfdcdb);
 }
 
 /* TEXT */
@@ -27,6 +28,11 @@ font-family: 'Fira Code', monospace;      - cooler monospace
 .spanWelcome {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 4.5rem;
+}
+
+.emailr{
+  text-decoration: underline;
+  color: #311b92;
 }
 
 .tagline {
@@ -62,14 +68,31 @@ p {
   color: #263238;
 }
 
+.bld {
+  font-weight: bold;
+}
+
 /* IMG */
 .eco {
   width: 7rem;
   height: 3rem;
 }
 
+.sticker {
+  width: 6rem;
+  height: 6rem;
+}
+
+.sticker_hype {
+  background-image: radial-gradient(#cfd8dc, #eceff1, #26a69a, #311b92);
+
+}
 
 /* DIV */
+
+.dumb {
+  background-image: url(https://i.giphy.com/media/Wmp1EOzVybWd13s5DB/giphy.webp);
+}
 
 .banner {
   margin: auto 0.2rem;
@@ -79,6 +102,11 @@ p {
 
 .txt {
   margin: auto 0.25rem;
+  text-align: center;
+}
+
+.txt-thin {
+  margin: auto 5.25rem;
   text-align: center;
 }
 
@@ -93,4 +121,9 @@ p {
 .footr {
   margin: 2rem 0.25rem;
   text-align: center;
+}
+
+.co {
+  background-color: #cfd8dc;
+  border-color: #cfd8dc;
 }
