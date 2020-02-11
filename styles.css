@@ -79,8 +79,8 @@ p {
 }
 
 .sticker {
-  width: 6rem;
-  height: 6rem;
+  width: 100%;
+  height: 20%;
 }
 
 .sticker_hype {
@@ -89,6 +89,11 @@ p {
 }
 
 /* DIV */
+
+.fourty {
+  width: 45%;
+  margin: auto;
+}
 
 .dumb {
   background-image: url(https://i.giphy.com/media/Wmp1EOzVybWd13s5DB/giphy.webp);
@@ -108,6 +113,10 @@ p {
 .txt-thin {
   margin: auto 5.25rem;
   text-align: center;
+}
+
+.spacr-smol {
+  margin: 1rem auto;
 }
 
 .spacr {
