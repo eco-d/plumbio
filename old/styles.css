@@ -1,0 +1,138 @@
+/* GENERAL */
+
+body {
+  background-color: #cfd8dc;
+  background-image: radial-gradient(#cfd8dc, #cfdcdb);
+}
+
+/* TEXT */
+
+/*
+
+font-family: 'Roboto', sans-serif;        - header
+font-family: 'Merriweather', serif;       - text
+font-family: 'IBM Plex Mono', monospace;  - "logo"
+font-family: 'Fira Code', monospace;      - cooler monospace
+
+ */
+
+.logo {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.welcome {
+  font-size: 4.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.spanWelcome {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 4.5rem;
+}
+
+.emailr{
+  text-decoration: underline;
+  color: #311b92;
+}
+
+.tagline {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #26a69a;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #311b92;
+  margin: 0.9rem auto;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  margin: 0.7rem auto;
+}
+
+.textmono {
+  font-family: 'Fira Code', monospace;
+}
+
+.footer-link {
+  font-family: 'Fira Code', monospace;
+  font-size:  0.8125rem;
+  color: #eceff1;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #263238;
+}
+
+.bld {
+  font-weight: bold;
+}
+
+/* IMG */
+.eco {
+  width: 7rem;
+  height: 3rem;
+}
+
+.sticker {
+  width: 100%;
+  height: 20%;
+}
+
+.sticker_hype {
+  background-image: radial-gradient(#cfd8dc, #eceff1, #26a69a, #311b92);
+
+}
+
+/* DIV */
+
+.fourty {
+  width: 45%;
+  margin: auto;
+}
+
+.dumb {
+  background-image: url(https://i.giphy.com/media/Wmp1EOzVybWd13s5DB/giphy.webp);
+}
+
+.banner {
+  margin: auto 0.2rem;
+  text-align: center;
+  background-image: url(https://i.giphy.com/media/Wmp1EOzVybWd13s5DB/giphy.webp);
+}
+
+.txt {
+  margin: auto 0.25rem;
+  text-align: center;
+}
+
+.txt-thin {
+  margin: auto 5.25rem;
+  text-align: center;
+}
+
+.spacr-smol {
+  margin: 1rem auto;
+}
+
+.spacr {
+  margin: 2rem auto;
+}
+
+.spacr-big {
+  margin: 4rem auto;
+}
+
+.footr {
+  margin: 2rem 0.25rem;
+  text-align: center;
+}
+
+.co {
+  background-color: #cfd8dc;
+  border-color: #cfd8dc;
+}

@@ -1,0 +1,265 @@
+/*
+
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Itim', cursive;
+font-family: 'Noticia Text', serif;
+font-family: 'Nunito', sans-serif;
+
+*/
+
+/* general */
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-size: cover;
+  background-color: #495159;
+}
+
+p {
+  font-family: 'Noticia Text', serif;
+  margin: 0.7rem auto;
+}
+
+/* text */
+.logo {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.thick{
+  font-family: 'Nunito', sans-serif;
+}
+
+.sectioner{
+  font-size: 3.5rem;
+  color: #b0c5d9;
+}
+
+.sectioner:hover{
+  color: #26c6da;
+  text-decoration: underline;
+}
+
+.sectioner-alt{
+  font-size: 3.5rem;
+  color: #b0c5d9;
+}
+
+.drip{
+  font-family: 'Itim', cursive;
+}
+
+.big-welcome{
+  font-size: 15rem;
+  color: #263238;
+}
+
+.small-welcome{
+  font-size: 11rem;
+  color: #263238;
+}
+
+.small-welcome-alt{
+  font-size: 11rem;
+  color: #26c6da;
+}
+
+.big-drip{
+  font-size: 4rem;
+  font-style: italic;
+  color: #37474f;
+}
+
+.barsize {
+  font-size: 2rem;
+}
+
+.itemsize {
+  font-size: 1.4rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.footer-link{
+  font-size:  0.8125rem;
+  color: #00897b;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #263238;
+}
+
+.footer-link-alt{
+  font-size:  0.8125rem;
+  color: #263238;
+  text-decoration: none;
+}
+.footer-link-alt:hover {
+  color: #00897b;
+}
+
+.emailr{
+  text-decoration: underline;
+  color: #311b92;
+}
+
+/* imgs */
+.eco {
+  width: 7rem;
+  height: 3rem;
+}
+
+/* divs */
+.welcome{
+  height: 95.5%;
+  width: 100.5%;
+  text-align: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0,188,212,.7),
+    rgba(0,150,136,.7)),
+    url('https://media.giphy.com/media/3uetGLYgad1OE/giphy.gif');
+
+  background-size: cover;
+}
+
+.sticker-header{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0,188,212,.7),
+    rgba(0,150,136,.7)),
+    url('https://media.giphy.com/media/AXc58rS6nzQQ/giphy.gif');
+
+}
+
+/* utility divs */
+.big-space{
+  height: 5rem;
+}
+
+.space{
+  height: 2rem;
+}
+
+.small-space{
+  height: 0.75rem;
+}
+
+.holder {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.flex-contain{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexxy-for-cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  /* overflow: scroll; */
+}
+
+.flex-item-lg{
+  flex-grow: 2;
+}
+
+.flex-item{
+  flex-grow: 1;
+}
+
+.flex-card{
+  flex-grow: 1;
+  height: 180px;
+  max-width: 20%;
+  margin: auto 0.5rem;
+}
+
+.txt-box{
+  margin: auto;
+  width: 45%;
+  background-color: rgba(38,50,56,0.5);
+  color: #eceff1;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.centered{
+  text-align: center;
+  margin: auto;
+}
+
+.widther{
+  margin: auto;
+  width: 75%;
+}
+
+
+
+@media only screen and (max-width:600px){
+  .txt-box{
+    margin: auto;
+    width: 80%;
+    background-color: rgba(38,50,56,0.5);
+    color: #eceff1;
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  .barsize {
+    font-size: 1.7rem;
+  }
+
+  .itemsize {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .big-welcome{
+    font-size: 6.5rem;
+    color: #263238;
+  }
+
+  .small-welcome{
+    font-size: 5rem;
+    color: #263238;
+  }
+
+  .small-welcome-alt{
+    font-size: 5rem;
+    color: #26c6da;
+  }
+
+  .big-drip{
+    font-size: 2rem;
+    font-style: italic;
+    color: #37474f;
+  }
+
+  .welcome{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(0,188,212,.7),
+      rgba(0,150,136,.7)),
+      url('https://media.giphy.com/media/TxGRBhQ4fImJO/giphy.gif');
+
+    background-size: cover;
+  }
+}
