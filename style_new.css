@@ -102,6 +102,16 @@ p {
   color: #311b92;
 }
 
+.menu-text{
+  font-size: 1.2rem;
+  color: #80cbc4;
+  text-decoration: none;
+}
+.menu-text:hover{
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
 /* imgs */
 .eco {
   width: 7rem;
@@ -205,6 +215,12 @@ p {
 .widther{
   margin: auto;
   width: 75%;
+}
+
+.at-top{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 
